@@ -23,7 +23,3 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
-output "vpc" {
-  value = module.vpc.vpc_id
-}
